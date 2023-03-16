@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/R.jpg");
+    background-repeat: repeat;
+    color: rgb(182, 182, 182);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-exercicio {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.849);
+    height: 300px;
+    width: 450px;
+    border: 2px solid #7a7a7a;
+    border-radius: 5px;
+    top: calc(50% - 150px);
+    left: calc(50% - 225px);
+}
+
+#form {
+    padding: 20px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+#form p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#form input{
+    height: 30px;
+    background-color: #b6afaf00;
+    border: 3px solid #474747bd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+}
+
+.btn-submit {
+    width: 180px;
+    margin-top: 10px;
+    background-color: #474747e0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    color: #d6d6d6;
+}
+
+.btn-submit:hover {
+    background-color: #ffffffbd;
+    color: black;
+}
+
+#error {
+    background-color: rgba(255, 0, 0, 0.623);
+    width: 100%;
+    margin-top: 20px;
+    transition: all 0.8s;
+    visibility: hidden;
+    display: none;
+}
+
+#sucess {
+    background-color: rgba(30, 255, 0, 0.486);
+    width: 100%;
+    margin-top: 20px;
+    transition: all 0.8s;
+    visibility: hidden;
+    display: none;
+}
